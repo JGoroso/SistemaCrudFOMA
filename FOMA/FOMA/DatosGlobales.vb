@@ -41,6 +41,7 @@ Module DatosGlobales
 
 
     Public Function BuscarCliente(id As Integer) As String
+        'Buscando cliente
         Dim nombre As String = ""
         Dim ConexionCliente As New OleDbConnection
         Dim ComandoCliente As New OleDbCommand
